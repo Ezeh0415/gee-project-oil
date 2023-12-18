@@ -149,6 +149,14 @@ hr {
   margin-right: 5px;
 }
 
+.item-one{
+  font-weight: 500;
+}
+
+.item-two{
+  font-weight: 300;
+}
+
 #bar {
   display:none;
 }
@@ -442,4 +450,18 @@ footer section .link-div h1 {
   font-size: 25px;
   text-align: center;
   color: var(--bs-body-bg);
+}
+
+
+/*Responsiveness*/
+@media screen and (max-width: 1150px) {
+
+
+  #bar{
+    display: block;
+  }
+
+  #navlinks{
+    display: none;
+  }
 }
