@@ -301,3 +301,145 @@ a {
   height: 18.75rem;
   margin-top: 6.25rem;
 }
+
+footer {
+  background-color: var(--bs-body-color);
+}
+
+footer section {
+  margin:0 3.75rem;
+  padding: 0.625rem;
+}
+
+footer section main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+a {
+  text-decoration: none;
+  color: var(--bs-cyan);
+}
+footer section .link-div {
+  width: 400px;
+  padding: 0.625rem;
+}
+
+footer section .link-div ul li  {
+  list-style-type: none;
+  text-decoration: none;
+  /* font-size: 1.125rem; */
+  font-size: 1.5625rem;
+  margin-top: 15px;
+}
+
+footer section .link-div h1 {
+  text-transform: capitalize;
+  font-size: 2.5625rem;
+  color: var(--bs-body-bg);
+}
+
+.main-footer-div {
+  width: 400px;
+  padding: 0.625rem;
+}
+
+.footer-div1 h1 {
+  font-size: 2.5625rem;
+  color: var(--bs-body-bg);
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.footer-div1 p {
+  color: var(--bs-body-bg);
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+.footer-div2 h3 {
+  font-size: 18px;
+  color: var(--bs-body-bg);
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.footer-div2 p {
+  font-size: 17px;
+  color: var(--bs-body-bg);
+  text-align: end;
+}
+
+.footer-div3 h3 {
+  font-size: 18px;
+  color: var(--bs-body-bg);
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.footer-div3 p {
+  font-size: 17px;
+  color: var(--bs-body-bg);
+  text-align: end;
+}
+
+.footer-div4 h3 {
+  font-size: 18px;
+  color: var(--bs-body-bg);
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.footer-div4 p {
+  font-size: 17px;
+  color: var(--bs-body-bg);
+  text-align: end;
+}
+
+.footer-div5 h3 {
+  font-size: 18px;
+  color: var(--bs-body-bg);
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.footer-div5 p {
+  font-size: 17px;
+  color: var(--bs-body-bg);
+  text-align: end;
+}
+
+/* .social-link {
+  border: solid 1px ;
+} */
+
+.social-link h1 {
+  font-size: 2.5625rem;
+  text-transform: capitalize;
+  color: var(--bs-body-bg);
+}
+
+.social-link ol li{
+  list-style-type: none;
+}
+
+.social-link ol li  {
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: var(--bs-body-bg);
+  text-align: center;
+}
+
+.copywright {
+  border-top: solid 1px;
+  padding: 40px;
+}
+
+.copywright h1 {
+  font-size: 25px;
+  text-align: center;
+  color: var(--bs-body-bg);
+}
