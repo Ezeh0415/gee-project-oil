@@ -16,10 +16,10 @@
     <title>ALPINE OIL KAZAKHSTAN</title>
   </head>
   <body>
-    <header>
+    <header id="header">
       <img class="logo" src="asset/APLINELOGO.png" alt="logo" />
 
-      <div style="display: flex; gap: 20px; align-items: center">
+      <div class="navlinks-container" >
         <div id="navlinks">
           <div class="navlinks-item">
             <ul class="item-one">
@@ -81,21 +81,24 @@
         </div>
 
         <div class="search-container">
+          <i class="fa-solid fa-magnifying-glass" id="search"></i>
           <input
             class="search"
             type="text"
             name="search"
             placeholder="Enter a text"
           />
-          <button class="search-btn">Search</button>
+          <button class="search-btn search">Search</button>
         </div>
-
-        <i class="fas fa-bars" id="bar"></i>
+      <div id="bar"><i class="fas fa-bars" id="bar-open" ></i>
+        <i class="fa-solid fa-x" id="bar-close"></i></div>
+        
       </div>
     </header>
 
     <!-- first barnner section  -->
-    <section class="first-section">
+  
+      <section class="first-section">
       <div>
         <!-- this section is for the hero section -->
         <img src="asset/heroone.jpg" alt="HeroImg" />
@@ -262,5 +265,6 @@
     </footer>
     <script src="jquery.min.js"></script>
     <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
