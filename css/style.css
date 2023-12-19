@@ -86,10 +86,11 @@
 
 body {
   font-family: "Roboto", sans-serif;
+/* min-width: fit-content; */
   /* padding: 0; */
   background-color: var(--bs-body-bg);
   font-weight: var(--bs-body-font-weight);
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   font-size: var(--bs-body-font-size);
 }
 
@@ -149,16 +150,16 @@ hr {
   margin-right: 5px;
 }
 
-.item-one{
+.item-one {
   font-weight: 500;
 }
 
-.item-two{
+.item-two {
   font-weight: 300;
 }
 
 #bar {
-  display:none;
+  display: none;
 }
 
 .second-main {
@@ -208,7 +209,7 @@ hr {
 /* first barnner section */
 
 .first-section {
-  margin-top: 1.5rem;
+  /* margin-top: 1.5rem; */
 }
 
 .first-section img {
@@ -315,7 +316,7 @@ footer {
 }
 
 footer section {
-  margin:0 3.75rem;
+  margin: 0 3.75rem;
   padding: 0.625rem;
 }
 
@@ -323,7 +324,6 @@ footer section main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 
 a {
@@ -335,7 +335,7 @@ footer section .link-div {
   padding: 0.625rem;
 }
 
-footer section .link-div ul li  {
+footer section .link-div ul li {
   list-style-type: none;
   text-decoration: none;
   /* font-size: 1.125rem; */
@@ -429,11 +429,11 @@ footer section .link-div h1 {
   color: var(--bs-body-bg);
 }
 
-.social-link ol li{
+.social-link ol li {
   list-style-type: none;
 }
 
-.social-link ol li  {
+.social-link ol li {
   font-size: 40px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -452,16 +452,55 @@ footer section .link-div h1 {
   color: var(--bs-body-bg);
 }
 
-
 /*Responsiveness*/
 @media screen and (max-width: 1150px) {
-
-
-  #bar{
+  #bar {
     display: block;
+    cursor: pointer;
   }
 
-  #navlinks{
+  #navlinks {
+    display: none;
+    position: absolute;
+  content: "";
+  top: 18.5vh;
+  right: 0;
+  width: 340px;
+  background-color: var(--bs-body-bg);
+  padding: 15px 5px;
+  }
+
+.navlinks-item{
+  flex-direction: column;
+  
+}
+
+  .item-one{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item-two{
+    display: flex;
+    flex-direction: column;
+    min-width: fit-content;
+    font-size: 13px;
+  }
+
+  .icon{
+    width: 13px;
+  }
+
+  .lang{
+    width: 80px;
+    margin-top: 5px ;
+  }
+
+
+}
+
+@media screen and (max-width: 500px){
+  .search{
     display: none;
   }
 }
