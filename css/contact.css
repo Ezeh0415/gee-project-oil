@@ -1,0 +1,67 @@
+.contact-banner section {
+    /* height: 400px;
+    width: 100%;
+    margin: 40px 0 2x 0;0p
+  
+    background-image: url("dummy-image/img (4).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;; */
+    padding: 10px;
+}
+
+.contact-banner h1 {
+    font-size: 50px;
+    border-left: solid 4px var(--bs-teal) ;
+    padding: 8px;
+    margin: 30px 0 0 0;
+}
+
+.central-office h1 {
+    font-size: 45px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+
+.central-office section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-card {
+    width: 700px;
+    padding: 10px;
+    border-bottom: dotted 3px;
+    margin-bottom: 40px;
+}
+
+.contact-card h4 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.contact-card span p {
+   font-size: 18px;
+   text-align: center;
+   margin-top: 10px;
+}
+
+.tell-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tell-link h6 {
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.second-central-office section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
