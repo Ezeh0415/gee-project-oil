@@ -130,6 +130,7 @@ header {
   object-fit: contain;
   background-position: cover;
   background-repeat: no-repeat;
+  padding-bottom: 20px;
 }
 
 .hero-header-text {
@@ -222,8 +223,8 @@ header {
   height: 2.8em;
   padding-right: 3.3em;
   cursor: pointer;
-  margin-top: 15px;
-  margin-bottom: 10px;
+  margin: 15px 0;
+
 }
 
 .cssbuttons-io-button .icon-btn {
@@ -785,9 +786,14 @@ footer section .link-div h1 {
     /* height: 80vh; */
     border: solid rgb(211, 211, 211) 2px;
     transition: 1s ease-in-out;
+    z-index: 999;
   }
 
   .navlinks-item {
+    flex-direction: column;
+  }
+
+  .navlinks-item > ul {
     flex-direction: column;
   }
 
