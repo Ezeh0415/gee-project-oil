@@ -4,60 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link
+   <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.css"
       integrity="sha512-tx5+1LWHez1QiaXlAyDwzdBTfDjX07GMapQoFTS74wkcPMsI3So0KYmFe6EHZjI8+eSG0ljBlAQc3PQ5BTaZtQ=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css" />
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+   
     <title>ALPINE OIL KAZAKHSTAN</title>
   </head>
   <body>
-    <!-- <header>
-     
-      <main class="nav">
-        <img class="logo" src="asset/APLINELOGO.png" alt="logo" />
-        <div>
+    <header id="header">
+      <img class="logo" src="asset/APLINELOGO.png" alt="logo" />
 
-        <div class="nav-flex">
-          
-
-          <div class="nav-items">
-            <ul class="nav-items-one">
-              <li>
-                <i class="fa-solid fa-globe"></i
-                ><a href="#"><a href="#">Site Map</a> </a>
-              </li>
-              <li>
-                <i class="fa-solid fa-book"></i> <a href="#">Press Center</a>
-              </li>
-              <li>
-                <i class="fa-solid fa-user-check"></i> <a href="#"> Career</a>
-              </li>
-              <li>
-                <i class="fa-solid fa-phone-volume"></i>
-                <a href="#"> Contact</a>
-              </li>
->>>>>>> 000ddfe9ed62393bfd1078fef83054632de82fbf
-            </ul>
-
-            <div>
-              <span><i class="fa-solid fa-magnifying-glass"></i></span>
-              <select name="lang" id="lang" class="lang">
-                <option value="eng">ENG</option>
-                <option value="ka3">KA3</option>
-                <option value="pyc">PYC</option>
-              </select>
-            </div>
-          </div>
-        </div>
-
-        <div class="nav-flex">
-          <div class="nav-items">
-            <ul class="nav-items-two">
+      <div class="navlinks-container" >
+        <div id="navlinks">
+          <div class="navlinks-item">
+            <ul class="item-one">
               <li><a href="#">Home</a></li>
               <li><a href="#">About</a></li>
               <li>
@@ -72,13 +39,14 @@
               </li>
               <li>
                 <a href="#"
-                  >Investors<i class="fa-solid fa-chevron-down"></i
+                  >Investors <i class="fa-solid fa-chevron-down"></i
                 ></a>
               </li>
               <li><a href="#">News</a></li>
               <li><a href="#">Contact Us</a></li>
             </ul>
           </div>
+
           <div>
             <input
               type="text"
@@ -113,42 +81,69 @@
           </ul>
         </div>
 
-        <hr>
 
+          <hr />
 
-        <div class="navlinks-item">
-          <ul>
-            <li><a href=""><img class="icon" src="./asset/globe-icon.svg" >Site Map</a></li>
-            <li><a href=""><img class="icon" src="./asset/paper-icon.svg" >Press Center</a></li>
-            <li><a href=""><img class="icon" src="./asset/career-icon.svg" >Career</a></li>
-            <li><a href=""><img class="icon" src="./asset/contact-icon.svg" >Contact</a></li>
-            
-          </ul>
-          
-          <select class="lang" name="lang" id="lang">
+          <div class="navlinks-item">
+            <ul class="item-two">
+              <li>
+                <a href=""
+                  ><img class="icon" src="./asset/globe-icon.svg" />Site Map</a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><img class="icon" src="./asset/paper-icon.svg" />Press
+                  Center</a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><img class="icon" src="./asset/career-icon.svg" />Career</a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><img class="icon" src="./asset/contact-icon.svg" />Contact</a
+                >
+              </li>
+            </ul>
+
+            <select class="lang" name="lang" id="lang">
               <option value="Eng">Eng</option>
               <option value="Eng">Kas</option>
               <option value="Eng">Pyc</option>
             </select>
+          </div>
         </div>
-      </div>
 
-      <div class="search-container">
-        <input type="text" name="search" placeholder="Enter a text">
-        <button>Search</button>
-      </div>
-
-      <i class="fas fa-bars" id="bar"></i>
+        <div class="search-container">
+          <i class="fa-solid fa-magnifying-glass" id="search"></i>
+          <input
+            class="search"
+            type="text"
+            name="search"
+            placeholder="Enter a text"
+          />
+          <button class="search-btn search">Search</button>
+        </div>
+      <div id="bar"><i class="fas fa-bars" id="bar-open" ></i>
+        <i class="fa-solid fa-x" id="bar-close"></i></div>
+        
       </div>
     </header>
 
+    <!--Hero Section/ first barnner section  -->
+  <section class="first-section">
+      <div class="hero-section">
+        <div class="hero-header-text">
+          <h2>
+            Welcome To <br> <span class="span">Alpine Oil Kazakhstan</span>
+          </h2>
 
-
-    <!-- first barnner section  -->
-    <section class="first-section">
-      <div>
-        <!-- this section is for the hero section -->
-        <img src="asset/img.jpg" alt="dummy-image" />
+          <hr style="width: 97vw; margin-left: 1px; overflow-x: hidden;">
+        </div>
+      </div>
       </div>
       <div class="under-img-text">
         <p>
@@ -204,14 +199,14 @@
           <li><a href="">All photos </a> <i class="fa fa-arrow-right"></i></li>
         </main>
 
-        <main class="third-section-main2">
+        <!-- <main class="third-section-main2">
           <div>
             <img src="asset/img (1).jpg" alt="" />
             <img src="asset/img (2).jpg" alt="" />
             <img src="asset/img (3).jpg" alt="" />
             <img src="asset/img.jpg" alt="" />
           </div>
-        </main>
+        </main> -->
       </div>
     </section>
     <!-- fourth section  -->
@@ -222,97 +217,120 @@
           <a href="#"></a>
         </div>
         <div>
-          <h1>Knowledg base</h1>
+          <h1>Knowledge base</h1>
           <a href="#"></a>
         </div>
       </main>
     </section>
+
+    <!-- Footer Section -->
     <footer>
-        <section>
-            <main>
-               <div class="link-div">
-                <h1>quick link</h1>
-                <ul>
-                  <li><a href="#">company</a></li>
-                  <hr>
-                  <li><a href="#">investors</a></li>
-                  <hr>
-                  <li><a href="#">sustainable development</a></li>
-                  <hr>
-                  <li><a href="#">procurement</a></li>
-                  <hr>
-                  <li><a href="#">press-center</a></li>
-                  <hr>
-                  <li><a href="#">career</a></li>
-                  <hr>
-                  <li><a href="#">contacts</a></li>
-                  <hr>
-              </ul>
-               </div>
-               <div class="main-footer-div">
-                    <div class="footer-div1">
-                        <div>
-                            <h1>hotline</h1>
-                            <p>
-                                You can report any violations of the Code of Conduct, including corruption, discrimination, unethical behavior and other violations
-                            </p>
-                            <h1>8 800 080 47 47</h1>
-                        </div>
-                        <hr>
-                    </div>
-                    <div class="footer-div2">
-                        <h3>Hot number for WhatsApp communication</h3>
-                        <p>8 771 191 88 16</p>
-                    </div>
-                    <hr>
-                    <div class="footer-div3">
-                        <h3>internet portal</h3>
-                        <p>
-                            <a href="www.sk-hotline.kz">www.sk-hotline.kz</a>
-                        </p>
-                    </div>
-                    <hr>
-                    <div class="footer-div4">
-                        <h3>Email</h3>
-                        <p>
-                            <a href="mailto:mail@sk-hotline.kz">mail@sk-hotline.kz</a>
-                        </p>
-                    </div>
-                    <hr>
-                    <div class="footer-div5">
-                        <h3>Submit an appeal</h3>
-                        <p>
-                            <a href="mailto:mail@sk-hotline.kz">Send Email</a>
-                        </p>
-                    </div>
-                    <hr>
-               </div>
-               
-               <div class="last-footer-div">
-                
-                  <div class="social-link">
-                    <h1>social link</h1>
-                    <ol>
-                        <li><i class="fab fa-facebook"></i></li>
-                        
-                        <li><i class="fab fa-telegram"></i></li>
-                        
-                        <li><i class="fab fa-youtube"></i></li>
-                        
-                        <li><i class="fab fa-instagram"></i></li>
-                        
-                    </ol>
-                 </div> 
-               </div>
-               
-            </main>
-            <div class="copywright">
-              <h1>2023 &copy;JSC National Company «KazMunayGas»</h1>
-           </div>
-        </section>
+      <section>
+        <main>
+          <div class="link-div">
+            <h1>Quick link</h1>
+            <ul>
+              <li><a href="#">Company</a></li>
+              <hr />
+              <li><a href="#">Investors</a></li>
+              <hr />
+              <li><a href="#">Sustainable development</a></li>
+              <hr />
+              <li><a href="#">Procurement</a></li>
+              <hr />
+              <li><a href="#">Press-center</a></li>
+              <hr />
+              <li><a href="#">Career</a></li>
+              <hr />
+              <li><a href="#">Contacts</a></li>
+              <hr />
+            </ul>
+          </div>
+
+          <div class="main-footer-div">
+            <div class="footer-div1">
+              <div>
+                <h1>hotline</h1>
+                <p>
+                  You can report any violations of the Code of Conduct,
+                  including corruption, discrimination, unethical behavior and
+                  other violations
+                </p>
+                <h1>8 800 080 47 47</h1>
+              </div>
+              <hr />
+            </div>
+            <div class="footer-div2">
+              <h3>Hot number for WhatsApp communication</h3>
+              <p>8 771 191 88 16</p>
+            </div>
+            <hr />
+            <div class="footer-div3">
+              <h3>internet portal</h3>
+              <p>
+                <a href="www.sk-hotline.kz">www.sk-hotline.kz</a>
+              </p>
+            </div>
+            <hr />
+            <div class="footer-div4">
+              <h3>Email</h3>
+              <p>
+                <a href="mailto:mail@sk-hotline.kz">mail@sk-hotline.kz</a>
+              </p>
+            </div>
+            <hr />
+            <div class="footer-div5">
+              <h3>Submit an appeal</h3>
+              <p>
+                <a href="mailto:mail@sk-hotline.kz">Send Email</a>
+              </p>
+            </div>
+            <hr />
+          </div>
+
+          <div class="last-footer-div">
+            <div class="social-link">
+              <h1>social link</h1>
+              <ol>
+                <li><i class="fab fa-facebook"></i></li>
+
+                <li><i class="fab fa-telegram"></i></li>
+
+                <li><i class="fab fa-youtube"></i></li>
+
+                <li><i class="fab fa-instagram"></i></li>
+              </ol>
+            </div>
+          </div>
+        </main>
+        <div class="copywright">
+          <h1>2023 &copy; ALPINE OIL KAZAKHSTAN</h1>
+        </div>
+      </section>
     </footer>
-    <script src="jquery.min.js"></script>
-    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="./js/script.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script type="text/javascript">
+      $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+    </script>
   </body>
 </html>
-
