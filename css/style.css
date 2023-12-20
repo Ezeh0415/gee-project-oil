@@ -1086,8 +1086,9 @@ header{
     /* min-width: 400px*/
   }
 
-  .second-section-text{
-    /* width: 100%; */
+  .second-section-text {
+    max-width: 100%;
+    margin: auto;
 
   }
 
