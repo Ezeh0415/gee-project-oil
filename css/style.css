@@ -502,7 +502,164 @@ footer section .link-div h1 {
   color: var(--bs-body-bg);
 }
 
+
 /* footer section */
+
+/* about page section  */
+
+.first-about-section h1{
+  font-size: 45px;
+  text-align: center;
+}
+
+.first-about-section blockquote {
+  font-size: 25px;
+  text-align: center;
+}
+
+.the-1899-1911-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 32px;
+  margin-bottom: 10px;
+}
+
+.section-1899 {
+  width: 500px;
+}
+
+.section-1899 h1{
+  font-size: 35px;
+  text-align: center;
+}
+
+.section-1899 blockquote{
+  font-size: 25px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.section-1911 {
+  width: 500px;
+}
+
+.section-1911 h1{
+  font-size: 35px;
+  text-align: center;
+}
+
+.section-1911 blockquote{
+  font-size: 30px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* key indicator section */
+
+.key-indicator {
+  margin: 50px 0 25px 0;
+}
+
+.key-indicator-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin:32px 0 10px 0;
+}
+
+.key-indicator .key-h1 {
+  font-size: 45px;
+  text-align: center;
+}
+
+.key-indicator-section div {
+  text-align: center;
+  width: 180px;
+}
+
+.key-indicator-section h5 {
+  font-size: 45px;
+}
+.key-indicator-section p {
+  font-size: 20px;
+}
+
+/* our value and strategy section */
+
+.strategy {
+  margin: 40px 0 20px 0;
+}
+
+.strategy-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 62px;
+}
+
+.strategy-div div {
+  border-right: solid 1px ;
+  /* width: 500px; */
+  height: 300px;
+  padding: 20px;
+}
+
+.strategy-div div:last-of-type {
+  border: none;
+}
+
+.strategy-div div h4{
+  font-size: 40px;
+}
+
+.strategy-div div p{
+  font-size: 20px;
+  margin-top: 30px;
+  letter-spacing: 1px;
+}
+
+/* employee count */
+
+.staff {
+  margin: 50px 0 30px 0;
+}
+
+.staff-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.staff-section main {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-left: 30px;
+}
+
+.staff-section main div {
+  margin:20px 0 0 20px;
+  border-left: dashed 2px;
+  padding: 10px;
+}
+
+.staff-section main div h4 {
+  font-size: 50px;
+}
+
+.staff-section main div p {
+  font-size: 30px;
+}
+
+.staff-section .total-staff h4 {
+  font-size: 40px;
+}
+
+.staff-section .total-staff i {
+  font-size: 30px;
+  margin-left: 60px;
+  font-weight: bold;
+}
 
 /*Responsiveness*/
 @media screen and (max-width: 1150px) {
@@ -605,3 +762,4 @@ footer section .link-div h1 {
     display: block;
   }
 }
+
