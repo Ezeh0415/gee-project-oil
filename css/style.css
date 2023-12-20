@@ -328,8 +328,10 @@ header {
  background-color: yellow;
  font-weight: 500;
  width: fit-content;
- padding: 3px 3px 3px 0; /*Top Right Bottom Left*/
+ padding: 13px; /*Top Right Bottom Left*/
  margin-bottom: 10px;
+ border-radius: 10px;
+ font-size: 1rem;
 }
 
 .second-section-text>h5 {
@@ -480,7 +482,7 @@ hr {
 /* second section  */
 
 .second-section {
-  margin: 1.5rem 3.75rem;
+  margin: 1.5rem 1rem;
   padding: 0.3125rem;
 }
 
@@ -506,11 +508,12 @@ h2 {
   text-align: center;
 }
 
+
 /*  third section  */
 
 .third-section-main1 {
-  margin: 1.5rem 3.75rem;
-  padding: 0.3125rem;
+  margin: 1.5rem 1;
+  /* padding: 0.3125rem; */
   display: flex;
   align-items: center;
 }
@@ -548,6 +551,44 @@ a {
   width: 18.75rem;
   height: 18.75rem;
   margin-top: 6.25rem;
+}
+
+.counter-container{
+  /* width: 85%; */
+  /* margin: 10px 10px; */
+}
+
+.counter-row{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.third-section-headerText{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.third-section-item{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 18%;
+  gap: 8px;
+  border-left: #000 solid;
+}
+
+.third-section-item > h3 {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.third-section-item > i{
+  font-size: 14px !important;
+  opacity: 0.8;
 }
 
 footer {
@@ -855,8 +896,50 @@ footer section .link-div h1 {
   font-weight: bold;
 }
 
+
+.counter-container{
+  overflow: hidden;
+  width: 100%;
+}
+
+.col-md-4 {
+  text-align: center;
+  padding-bottom: 50px;
+  border-right: 1px dashed black;
+  width: 20%;
+}
+
+.col-md-4:last-child {
+  border-right: 0px solid black;
+}
+
+.counter {
+  animation-duration: 1s;
+  animation-delay: 0s;
+}
+
+i {
+  font-size: 20px !Important;
+}
+
+@media (max-width: 991px) {
+  .col-md-4 {
+    border-right: 0px dashed black;
+    border-bottom: 1px dashed black;
+    width: 50%;
+    margin: auto auto;
+  }
+  
+  .col-md-4:last-child {
+    border-bottom: 0px dashed black;
+  }
+}
 /*Responsiveness*/
 @media screen and (max-width: 1150px) {
+header{
+  display: flex;
+}
+
   #bar {
     display: block;
     cursor: pointer;
@@ -908,6 +991,10 @@ footer section .link-div h1 {
     margin-top: 5px;
   }
 
+  .hero-section{
+    overflow: hidden;
+  }
+
   .hero-header-text > h2 {
     text-align: left;
     margin-left: 10px;
@@ -925,7 +1012,38 @@ footer section .link-div h1 {
     font-size: 40px;
     letter-spacing: 1.5px;
   }
+  
 
+  .second-section-img{
+    width: 230px;
+    height: 150px;
+    margin: 0 3px;
+  }
+
+  .counter-row{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.third-section-item{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 30%;
+  gap: 5px;
+  border-left: #484848 solid;
+}
+
+.it{
+  padding-left: 3px;
+
+}
+  
+ 
   footer section main {
     flex-direction: column;
     padding: 0;
@@ -959,5 +1077,36 @@ footer section .link-div h1 {
   #search {
     display: block;
   }
+
+   .second-section-main{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* min-width: 400px*/
+  }
+
+  .second-section-text{
+    /* width: 100%; */
+
+  }
+
+  .second-section-text > h4, .button{
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  .lable{
+    font-size: 0.8rem;
+  }
+
+  .second-section-img{
+    display: none;
+  }
+
+
+  /* .second-section-main{
+    min-width: 250px;
+  } */
 }
 
