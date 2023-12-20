@@ -151,7 +151,7 @@ header {
 
 .hero-paragraph {
   margin-left: 13.5px;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 .span {
@@ -259,6 +259,96 @@ header {
 .cssbuttons-io-button:active .icon-btn {
   transform: scale(0.95);
 }
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px 8px 16px;
+  gap: 8px;
+  height: 40px;
+  width: 128px;
+  border: none;
+  background: #056bfa27;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.lable {
+  margin-top: 1px;
+  font-size: 19px;
+  line-height: 22px;
+  color: #056DFA;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+.button:hover {
+  background: #056bfa49;
+}
+
+.button:hover .svg-icon {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-8deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  75% {
+    transform: rotate(8deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.second-section-main{
+  display: flex;
+  align-items: center ;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+
+.second-section-text{
+  width: 450px;
+}
+
+.second-section-text>h4{
+ background-color: yellow;
+ font-weight: 500;
+ width: fit-content;
+ padding: 3px 3px 3px 0; /*Top Right Bottom Left*/
+ margin-bottom: 10px;
+}
+
+.second-section-text>h5 {
+ margin-bottom: 10px;
+
+}
+
+.second-section-text>p {
+  margin-bottom: 10px;
+}
+
+
+.second-section-img{
+  width: 554px;
+  height: 286px;
+  border-radius: 20px;
+}
+
+
 
 
 .navlinks-item {
