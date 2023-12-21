@@ -727,7 +727,100 @@ footer section .link-div h1 {
   letter-spacing: 1.5px;
 
 }
+/* about section  */
 
+.first-about-section h1{
+  font-size: 35px;
+  text-align: center;
+}
+
+.first-about-section blockquote {
+  font-size: 20px;
+  text-align: center;
+}
+
+/* this style covers for all the div */
+.section-1899 {
+  width: 100%;
+}
+
+.section-1899 h1{
+  font-size: 30px;
+  text-align: center;
+}
+
+.section-1899 blockquote{
+  font-size: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.section-1911 {
+  width: 100%;
+}
+
+.section-1911 h1{
+  font-size: 30px;
+  text-align: center;
+}
+
+.section-1911 blockquote{
+  font-size: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+
+.key-indicator-section {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin:32px 0 10px 8px;
+  padding: 10px;
+  width: 100%;
+}
+
+.key-indicator-second {
+  position: relative;
+  left: 120px;
+ 
+}
+
+
+.staff-section main:last-of-type{
+  display: flex;
+  align-items: center;
+}
+
+.staff-section main{
+  width: 100%;
+}
+
+.staff-section .total-staff {
+  width: 100%;
+}
+
+.staff-section .total-staff h4 {
+  font-size: 30px;
+}
+
+.staff-section .total-staff i {
+  font-size: 20px;
+  margin-left: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.staff-section .total-staff i {
+  font-size: 21px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.sap {
+  display: none;
+}
+
+/* footer section */
   footer section main {
     flex-direction: column;
     padding: 0;
@@ -760,6 +853,96 @@ footer section .link-div h1 {
 
   #search {
     display: block;
+  }
+
+
+  /* about page */
+
+  .the-1899-1911-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+  }
+
+  .section-1899 {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .section-1899 blockquote{
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  .section-1911 {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .section-1911 blockquote{
+    font-size: 17px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  .key-indicator .key-h1 {
+    font-size: 25px;
+  }
+
+  .key-indicator-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin:32px 0 10px -10px;
+  }
+
+  .key-indicator-second {
+   position: inherit;
+   left: 0px;
+  }
+
+  .key-indicator-section div {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .strategy-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 22px;
+  }
+
+  .strategy-div div {
+    border-bottom: solid 1px ;
+    width: 90%;
+    height: 300px;
+    padding: 20px;
+  }
+
+  .staff-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+  }
+
+  .staff-section main {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 10px;
+  }
+
+  .staff-section .total-staff {
+    flex-direction: column;
+    margin-bottom: 20px;
   }
 }
 

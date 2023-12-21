@@ -70,3 +70,39 @@
     /* display: grid;
     grid-template-columns: repeat(2, 1fr); */
 }
+
+/* responsiveness */
+
+@media screen and (max-width: 1150px) {
+    .second-central-office section{
+        display: flex;
+        /* align-items: center;
+        justify-content: space-between; */
+        flex-direction: column;
+    }
+
+    .contact-card {
+        width: 90%;
+    }
+
+    .contact-card .tell-link {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .contact-card .tell-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .tell-link p {
+        font-size: 15px;
+    }
+
+
+}
