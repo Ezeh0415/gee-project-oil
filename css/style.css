@@ -1262,9 +1262,23 @@ i {
     display: none;
   }
 
+  .fifth-section-swiper{
+    width: 100%;
+    margin: 15px 30px !important;
+  }
+
+  .fourth-section-carousel {
+    height: fit-content;
+  }
+
+  .fifth-section-img{
+  display: none;
+}
+
   #navlinks {
     top: 10vh;
   }
+
 
   #search {
     display: block;
