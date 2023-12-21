@@ -18,7 +18,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-  
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css"
@@ -330,7 +330,6 @@
     </section>
     <!-- slider section  -->
     <section class="third-section">
-
       <h3 class="third-section-headerText">PRODUCTION FIGURES FOR 2023</h3>
       <div class="counter-container">
         <div class="counter-row">
@@ -338,50 +337,132 @@
             <i class="fa-solid fa-arrow-up-9-1"></i>
             <h1><span class="counter">22</span></h1>
             <h3>Oil Production Volume in Million Tons</h3>
-        
           </div>
           <div class="third-section-item">
             <i class="fa-solid fa-arrow-up-9-1"></i>
             <h1><span class="counter">26</span></h1>
             <h3>Oil and Condensate Production in Kazakhstan</h3>
-          
           </div>
           <div class="third-section-item it">
             <i class="fa-solid fa-arrow-up-9-1"></i>
             <h1><span class="counter">74.7</span></h1>
             <h3>Oil Transportation in Million Tons</h3>
-           
           </div>
 
           <div class="third-section-item">
             <i class="fa-solid fa-arrow-up-9-1"></i>
             <h1><span class="counter">19.9</span></h1>
             <h3>Volume of Processing in Million Tons</h3>
-          
           </div>
 
           <div class="third-section-item">
             <i class="fa-solid fa-arrow-up-9-1"></i>
             <h1><span class="counter">54</span></h1>
             <h3>The Total Length of Crude Oil Pipelines in 1000/KM</h3>
-            
           </div>
         </div>
       </div>
     </section>
     <!-- fourth section  -->
-    <section>
-      <main>
-        <div>
-          <h1>more about kmg</h1>
-          <a href="#"></a>
-        </div>
-        <div>
-          <h1>Knowledge base</h1>
-          <a href="#"></a>
+    <section class="fourth-section">
+      <main class="fourth-section-container">
+        <div class="row-4">
+          <h1>Persons of Alpine</h1>
+          <a href="#">All Photos <i class="fa-solid fa-arrow-right"></i></a>
         </div>
       </main>
     </section>
+
+    <div class="fourth-section-carousel">
+      <div class="loop owl-carousel owl-theme owl-loaded owl-drag">
+        <div class="owl-stage-outer">
+          <div
+            class="owl-stage"
+            style="
+              transition: all 0.25s ease 0s;
+              width: 5880px;
+              transform: translate3d(-3797px, 0px, 0px);
+            "
+          >
+            <div
+              class="owl-item cloned"
+              style="width: 235px; margin-right: 10px"
+            >
+              <div class="item item-img-1">
+                <h4>1</h4>
+               
+              </div>
+            </div>
+            <div
+              class="owl-item cloned"
+              style="width: 235px; margin-right: 10px"
+            >
+              <div class="item item-img-2">
+                <h4>2</h4>
+              </div>
+            </div>
+            <div
+              class="owl-item cloned"
+              style="width: 235px; margin-right: 10px"
+            >
+              <div class="item item-img-3">
+                <h4>3</h4>
+              </div>
+            </div>
+            <div
+              class="owl-item cloned"
+              style="width: 235px; margin-right: 10px"
+            >
+              <div class="item item-img-4">
+                <h4>4</h4>
+              </div>
+            </div>
+            <div
+              class="owl-item cloned"
+              style="width: 235px; margin-right: 10px"
+            >
+              <div class="item item-img-5">
+                <h4>5</h4>
+              </div>
+            </div>
+            <div
+              class="owl-item cloned"
+              style="width: 235px; margin-right: 10px"
+            >
+              <div class="item item-img-6">
+                <h4>6</h4>
+              </div>
+            </div>
+            
+            
+          
+          
+            
+          </div>
+        </div>
+        <div class="owl-nav disabled">
+          <button type="button" role="presentation" class="owl-prev">
+            <span aria-label="Previous">‹</span></button
+          ><button type="button" role="presentation" class="owl-next">
+            <span aria-label="Next">›</span>
+          </button>
+        </div>
+        <div class="owl-dots">
+          <button role="button" class="owl-dot"><span></span></button
+          ><button role="button" class="owl-dot"><span></span></button
+          ><button role="button" class="owl-dot"><span></span></button
+          ><button role="button" class="owl-dot"><span></span></button
+          ><button role="button" class="owl-dot"><span></span></button
+          ><button role="button" class="owl-dot"><span></span></button
+          ><button role="button" class="owl-dot"><span></span></button
+          ><button role="button" class="owl-dot"><span></span></button
+          ><button role="button" class="owl-dot"><span></span></button
+          ><button role="button" class="owl-dot"><span></span></button
+          ><button role="button" class="owl-dot"><span></span></button
+          ><button role="button" class="owl-dot active"><span></span></button>
+        </div>
+      </div>
+    </div>
 
     <!-- Footer Section -->
     <footer>
@@ -513,9 +594,10 @@
     <script type="text/javascript">
       $(".owl-carousel").owlCarousel({
         loop: true,
-        margin: 10,
+        margin: 5,
         nav: false,
         autoplay: true,
+        // stagePadding: 50,
         dots: false,
         responsive: {
           0: {
@@ -525,11 +607,24 @@
             items: 3,
           },
           1000: {
-            items: 5,
+            items: 4,
           },
         },
       });
+
+       $('.loop').owlCarousel({
+    center: true,
+    items:2,
+    loop:true,
+    margin:10,
+    responsive:{
+        600:{
+            items:4
+        }
+    }
+});
     </script>
+
 
     <script type="text/javascript">
       $(".counter").counterUp({
