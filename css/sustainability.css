@@ -1,0 +1,152 @@
+.first-section section div h1{
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.first-section section div blockquote {
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+/* second section */
+
+.sustain-second-section 
+{
+    margin: 20px auto;
+    width: 90%;
+}
+
+.sustain-second-section section .colored-div 
+{
+    border-radius: 20px 0 20px 0;
+    border: solid 1px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.sustain-second-section section .colored-div h1 
+{
+    font-size: 30px;
+    margin: 2px 0 0 7px;
+}
+
+.sustain-second-section section .colored-div blockquote 
+{
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.sustain-second-section section .colored-div .icon-div
+{
+    display: flex;
+    align-items: center;
+}
+
+.sustain-second-section section .colored-div .icon-div i
+{
+    font-size: 60px;
+}
+
+.list-divs
+{
+    margin: 0 0 0 40px;
+}
+
+.list-divs ul li
+{
+    text-transform: capitalize;
+    list-style-type:none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.list-divs ul li::before 
+{
+    content: "=>";
+}
+
+/* last section */
+
+.last-div section 
+{
+    padding: 50px 25px 50px 25px;
+}
+
+.last-div section div
+{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.last-div section div h1 
+{
+    text-align: center;
+    font-size: 50px;
+}
+
+.last-div section div blockquote 
+{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 23px;
+}
+ 
+/* tablet responsivenes */
+@media screen and (max-width: 1150px) 
+{
+    .first-section section div h1
+    {
+        font-size: 40px;
+    }
+
+    .first-section section div blockquote 
+    {
+        font-size: 20px;
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .last-div section div h1 
+    {
+        font-size: 45px;
+    }
+}
+
+/* mobile responsive */
+
+@media screen and (max-width: 500px)  
+{
+    .first-section section div h1
+    {
+        font-size: 22px;
+    }
+
+    .first-section section div blockquote 
+    {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+
+    .sustain-second-section section .colored-div blockquote 
+    {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+
+    .last-div section div h1 
+    {
+        font-size: 23px;
+    }
+
+    .last-div section div blockquote 
+    {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+}
