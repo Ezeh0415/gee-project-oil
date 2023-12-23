@@ -451,8 +451,12 @@ hr {
 .under-img-text {
   display: flex;
   align-items: center;
-  margin: 0 3.75rem;
-  padding: 0.3125rem;
+  /* margin: 0 3.75rem; */
+  padding: 0 10px;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .under-img-text p {
@@ -1372,6 +1376,25 @@ i {
   .col-md-4:last-child {
     border-bottom: 0px dashed black;
   }
+
+  .under-img-text {
+  display: flex;
+  align-items: center;
+  /* margin: 0 3.75rem; */
+  /* padding: 0 10px; */
+  padding-top: 1rem;
+  /* padding-bottom: 0.5rem; */
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 20px ;
+}
+
+.second-under-imgText{
+  padding-left: 13px;
+}
+
+
+
 }
 /*Responsiveness*/
 @media screen and (max-width: 1150px) {
