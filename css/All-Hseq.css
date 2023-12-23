@@ -1,0 +1,134 @@
+.first-page section 
+{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+
+/* i gave them each coresponding amount of width */
+.first-page section .hseq-link-div
+{
+    background-color: rgb(253, 253, 252);
+    width: 25%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.first-page section .hseq-link-div
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.first-page section .hseq-link-div a 
+{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    margin: 8px 0 0 0 ;
+    height: 100px;
+}
+
+.first-page section .hseq-link-div a:hover 
+{
+    color: aquamarine;
+}
+
+.first-page section .hseq-text-div
+{
+    width: 70%;
+}
+
+.first-page section .hseq-text-div h1
+{
+    font-size: 35px;
+}
+
+.first-page section .hseq-text-div blockquote 
+{
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 1150px) {
+    .first-page section 
+    {
+        display: flex;
+        /* align-items: center;
+        justify-content: center; */
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .first-page section .hseq-link-div
+    {
+        width: 100%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    .first-page section .hseq-text-div
+    {
+        width: 95%;
+    }
+
+    .first-page section .hseq-link-div a 
+{
+    background-color: #fbf4f4;
+    border: solid 1px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    margin: 15px 0 15px 0 ;
+    height: 60px;
+    width: 95%;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.first-page section .hseq-text-div blockquote 
+{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    font-weight: 300;
+}
+}
+
+@media screen and (max-width: 500px) {
+
+    .first-page section .hseq-link-div
+    {
+        width: 100%;
+        margin: 10px auto;
+        padding: 0px;
+    }
+
+    .first-page section .hseq-link-div a 
+    {
+        background-color: #fbf4f4;
+        border: solid 1px;
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+        margin: 15px 0 15px 0 ;
+        height: 60px;
+        width: 95%;
+        font-weight: 500;
+        padding: 10px;
+    }
+
+    .first-page section .hseq-text-div h1
+    {
+        font-size: 25px;
+    }
+
+    .first-page section .hseq-text-div blockquote 
+    {
+        font-size: 15px;
+        text-align: center;
+    }
+}
